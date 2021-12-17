@@ -1,0 +1,232 @@
+{
+  "tabs": {
+    "dashboard": {
+      "id": "dashboard",
+      "name": "Dashboard",
+      "contentId": "dashboard"
+    },
+    "brands": {
+      "id": "brands",
+      "name": "Brands",
+      "subTabs": {
+        "main": {
+          "id": "main",
+          "name": "Main",
+          "subTabs": {
+            "overview": {
+              "id": "overview",
+              "name": "Overview",
+              "color": "#000",
+              "subTabs": {
+                "fanCount": {
+                  "id": "fanCount",
+                  "name": "Fan Count",
+                  "contentId": "columnChartWithTable"
+                },
+                "postEngagement": {
+                  "id": "postEngagement",
+                  "name": "Post Engagement",
+                  "contentId": "columnChartWithTable"
+                },
+                "socialStream": {
+                  "id": "socialStream",
+                  "name": "Social Stream",
+                  "contentId": "posts"
+                },
+                "socialBuzz": {
+                  "id": "socialBuzz",
+                  "name": "Social Buzz",
+                  "contentId": "bubbleChartWithTable"
+                }
+              }
+            },
+            "facebook": {
+              "id": "facebook",
+              "name": "Facebook",
+              "color": "#3b5998",
+              "subTabs": {
+                "fanCount": {
+                  "id": "fanCount",
+                  "name": "Fan Count",
+                  "contentId": "columnChartWithTable"
+                },
+                "postEngagement": {
+                  "id": "postEngagement",
+                  "name": "Post Engagement",
+                  "contentId": "columnChartWithTable"
+                },
+                "socialStream": {
+                  "id": "socialStream",
+                  "name": "Social Stream",
+                  "contentId": "posts"
+                },
+                "socialBuzz": {
+                  "id": "socialBuzz",
+                  "name": "Social Buzz",
+                  "contentId": "bubbleChartWithTable"
+                }
+              }
+            },
+            "twitter": {
+              "id": "twitter",
+              "name": "Twitter",
+              "color": "#1dcaff",
+              "subTabs": {
+                "fanCount": {
+                  "id": "fanCount",
+                  "name": "Fan Count",
+                  "contentId": "columnChartWithTable"
+                },
+                "postEngagement": {
+                  "id": "postEngagement",
+                  "name": "Post Engagement",
+                  "contentId": "columnChartWithTable"
+                },
+                "socialStream": {
+                  "id": "socialStream",
+                  "name": "Social Stream",
+                  "contentId": "posts"
+                },
+                "socialBuzz": {
+                  "id": "socialBuzz",
+                  "name": "Social Buzz",
+                  "contentId": "bubbleChartWithTable"
+                }
+              }
+            },
+            "instagram": {
+              "id": "instagram",
+              "name": "Instagram",
+              "color": "#fbad50",
+              "subTabs": {
+                "fanCount": {
+                  "id": "fanCount",
+                  "name": "Fan Count",
+                  "contentId": "columnChartWithTable"
+                },
+                "postEngagement": {
+                  "id": "postEngagement",
+                  "name": "Post Engagement",
+                  "contentId": "columnChartWithTable"
+                },
+                "socialStream": {
+                  "id": "socialStream",
+                  "name": "Social Stream",
+                  "contentId": "posts"
+                },
+                "socialBuzz": {
+                  "id": "socialBuzz",
+                  "name": "Social Buzz",
+                  "contentId": "bubbleChartWithTable"
+                }
+              }
+            },
+            "searches": {
+              "id": "searches",
+              "name": "Searches",
+              "color": "#91DC5A",
+              "subTabs": {
+                "searchGrowth": {
+                  "id": "searchGrowth",
+                  "name": "Search Growth",
+                  "contentId": "bubbleChartWithTable"
+                },
+                "growthDelta": {
+                  "id": "growthDelta",
+                  "name": "Growth Delta",
+                  "contentId": "bubbleChartWithTable"
+                },
+                "volume": {
+                  "id": "volume",
+                  "name": "Volume",
+                  "contentId": "columnChartWithTable"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "trends": {
+      "id": "trends",
+      "name": "Trends",
+      "subTabs": {
+        "main": {
+          "id": "main",
+          "name": "Main"
+        }
+      }
+    },
+    "market": {
+      "id": "market",
+      "name": "Market",
+      "subTabs": {
+        "main": {
+          "id": "main",
+          "name": "Main",
+          "subTabs": {
+            "brands": {
+              "id": "brands",
+              "name": "Brands",
+              "color": "#006DF0",
+              "contentId": "table"
+            },
+            "retailers": {
+              "id": "retailers",
+              "name": "Retailers",
+              "color": "#D80027",
+              "contentId": "table"
+            },
+            "fullPrice": {
+              "id": "fullPrice",
+              "name": "FullPrice",
+              "color": "#933EC5",
+              "contentId": "pieTable"
+            },
+            "segments": {
+              "id": "segments",
+              "name": "Segments",
+              "color": "#f1684e",
+              "contentId": "pieTable"
+            },
+            "colors": {
+              "id": "colors",
+              "name": "Colors",
+              "color": "#00a1f1",
+              "contentId": "pieTable"
+            },
+            "sizes": {
+              "id": "sizes",
+              "name": "Sizes",
+              "color": "#000",
+              "contentId": "empty"
+            },
+            "social": {
+              "id": "social",
+              "name": "Social",
+              "color": "#f2f23e",
+              "subTabs": {
+                "socialStream": {
+                  "id": "socialStream",
+                  "name": "Social Stream",
+                  "contentId": "posts"
+                },
+                "insights": {
+                  "id": "insights",
+                  "name": "Insights",
+                  "contentId": "columnChartWithTable"
+                }
+              }
+            },
+            "market": {
+              "id": "market",
+              "name": "Market",
+              "color": "#D80027",
+              "contentId": "empty"
+            }
+          }
+        }
+      }
+    }
+  }
+}
